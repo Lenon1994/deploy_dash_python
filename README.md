@@ -28,9 +28,11 @@ git status
 Após fazer isso executar 
 git commit -m “colocar o texto aqui”
 
-Estacionar o diretório com o remote
+Após realizar o commit realizar comando abaixo
+git push
 
-Depois realizar o brach main
+Consegue avaliar todos os commit
+git log --graph
 
 
 **Arquivo**
