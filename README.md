@@ -16,24 +16,16 @@ Passo a passo:
 
 
 **Comandos GIT para carregar os arquivos**
-Abrir CMD ir até a pasta dos arquivos e realizar o seguinte comando
-git init
-
-Comando para adicionar todos os arquivos da pasta
-git add .
-
-Comando para avaliar o status
-git status
-
-Após fazer isso executar 
-git commit -m “colocar o texto aqui”
-
-Após realizar o commit realizar comando abaixo
-git push
-
-Consegue avaliar todos os commit
-git log --graph
+- Abrir CMD ir até a pasta dos arquivos e realizar o seguinte comando (git init)
+- Comando para adicionar todos os arquivos da pasta (git add .)
+- Comando para avaliar o status (git status )
+- Toda alterção precisa realizar o commit (git commit -m “colocar o texto aqui”)
+- Associar o local dos arquivos (git remote add origin "link com o repositorio GIT")
+- Acessar ao branch principal (git branch -M main)
+- Comando para subir os arquivos (git push -u origin main)
+- Comando para avalair logs (git log --oneline --graph -all)
+- Comando para pegar arquivos do Git (git pull)
 
 
-**Arquivo**
+**Observação**
 O arquivo com o dataset precisa estar dentro da pasta assets
